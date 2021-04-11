@@ -1,4 +1,5 @@
-baseURL = "https://joanfqa.github.io/mydocsy"
+#baseURL = "https://joanfqa.github.io/mydocsy"
+baseURL = "/"
 contentDir = "content/en"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
@@ -24,16 +25,8 @@ resampleFilter = "CatmullRom"
 [languages.en]
 description = "A Docsy example site"
 languageName = "English"
-# Weight used for sorting.
-weight = 1
-
-[languages.ca]
 title = "Goldydocs"
-description = "Docsy Recorregut"
-languageName ="Català"
-contentDir = "content/ca"
-time_format_default = "02.01.2006"
-time_format_blog = "02.01.2006"
+weight = 1
 [languages.fa]
 contentDir = "content/fa"
 description = "یک نمونه برای پوسته داکسی"
