@@ -19,7 +19,7 @@ The front matter specifies the date of the blog post, its title, a short descrip
 
 Here's an image (`featured-sunset-get.png`) that includes a byline and a caption.
 
-{{< imgproc sunset Fill "600x300" >}}
+{{< imgproc sunset Fill "800x300" >}}
 Fetch and scale an image in the upcoming Hugo 0.43.
 {{< /imgproc >}}
 
@@ -43,4 +43,21 @@ Fetch and scale an image in the upcoming Hugo 0.43.
 
 The image will be rendered at the size and byline specified in the front matter.
 
+#### Inserir una imatge processada via Shortcode
+
+{{< imgproc Logo Fill "300x60" >}}
+Logo de la Gene
+{{< /imgproc >}}
+
+#### Inserir una imatge de forma normal
+
+
+![ads](./assets/j0awn4huww_ads_logo.png "ADS Image")
+
+
+{{< imgproc ads Fill "100x60" >}}
+Logo ADS
+{{< /imgproc >}}
+
+![demo](Logo-Generalitat.jpg)
 
