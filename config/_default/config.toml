@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://joanfqa.github.io/mydocsy"
 contentDir = "content/en"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
