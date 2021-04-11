@@ -1,0 +1,108 @@
+#baseURL = "https://joanfqa.github.io/mydocsy"
+baseURL = "/"
+contentDir = "content/en"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+disableKinds = ["taxonomy", "taxonomyTerm"]
+enableGitInfo = true
+enableMissingTranslationPlaceholders = true
+enableRobotsTXT = true
+pygmentsCodeFences = true
+pygmentsStyle = "tango"
+pygmentsUseClasses = false
+pygmentsUseClassic = false
+theme = ["docsy"]
+title = "Goldydocs"
+[blackfriday]
+angledQuotes = false
+hrefTargetBlank = true
+latexDashes = true
+plainIDAnchors = true
+[imaging]
+anchor = "smart"
+quality = 75
+resampleFilter = "CatmullRom"
+[languages.en]
+description = "A Docsy example site"
+languageName = "English"
+title = "Goldydocs"
+weight = 1
+[languages.fa]
+contentDir = "content/fa"
+description = "یک نمونه برای پوسته داکسی"
+languageName = "فارسی"
+time_format_blog = "2006.01.02"
+time_format_default = "2006.01.02"
+title = "اسناد گلدی"
+[languages.no]
+contentDir = "content/no"
+description = "Docsy er operativsystem for skyen"
+languageName = "Norsk"
+time_format_blog = "02.01.2006"
+time_format_default = "02.01.2006"
+title = "Goldydocs"
+[markup.goldmark.renderer]
+unsafe = true
+[markup.highlight]
+style = "tango"
+[outputs]
+section = ["HTML", "print"]
+[params]
+algolia_docsearch = false
+archived_version = false
+copyright = "The Docsy Authors"
+gcs_engine_id = "d72aa9b2712488cc3"
+github_project_repo = "https://github.com/google/docsy"
+github_repo = "https://github.com/google/docsy-example"
+offlineSearch = false
+prism_syntax_highlighting = false
+privacy_policy = "https://policies.google.com/privacy"
+url_latest_version = "https://example.com"
+version = "0.0"
+version_menu = "Releases"
+[[params.links.developer]]
+desc = "Development takes place here!"
+icon = "fab fa-github"
+name = "GitHub"
+url = "https://github.com/google/docsy"
+[[params.links.developer]]
+desc = "Chat with other project developers"
+icon = "fab fa-slack"
+name = "Slack"
+url = "https://example.org/slack"
+[[params.links.developer]]
+desc = "Discuss development issues around the project"
+icon = "fa fa-envelope"
+name = "Developer mailing list"
+url = "https://example.org/mail"
+[[params.links.user]]
+desc = "Discussion and help from your fellow users"
+icon = "fa fa-envelope"
+name = "User mailing list"
+url = "https://example.org/mail"
+[[params.links.user]]
+desc = "Follow us on Twitter to get the latest news!"
+icon = "fab fa-twitter"
+name = "Twitter"
+url = "https://example.org/twitter"
+[[params.links.user]]
+desc = "Practical questions and curated answers"
+icon = "fab fa-stack-overflow"
+name = "Stack Overflow"
+url = "https://example.org/stack"
+[params.ui]
+breadcrumb_disable = false
+footer_about_disable = false
+navbar_logo = true
+sidebar_menu_compact = false
+sidebar_search_disable = false
+[params.ui.feedback]
+enable = true
+no = "Sorry to hear that. Please <a href=\"https://github.com/USERNAME/REPOSITORY/issues/new\">tell us how we can improve</a>."
+yes = "Glad to hear it! Please <a href=\"https://github.com/USERNAME/REPOSITORY/issues/new\">tell us how we can improve</a>."
+[params.ui.readingtime]
+enable = false
+[permalinks]
+blog = "/:section/:year/:month/:day/:slug/"
+[services.googleAnalytics]
+id = "UA-00000000-0"
